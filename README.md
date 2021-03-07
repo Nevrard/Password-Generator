@@ -1,4 +1,4 @@
-# Professional-Portfolio
+# Password Generator
 
 # Table of contents
 
@@ -18,7 +18,7 @@ This web application is a Password generator ,Which generates random Password ac
  For Security reason and efficeiency This Password Generator can only genarate a password which has between  8 and 128 Characters.
 
  It is a helpful tool that can be used to generate a Strong and quick password
- 
+
  ## Specification
 
  This tool has been built using HTML ,CSS and Javascript.
