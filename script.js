@@ -47,7 +47,7 @@ function generatePassword ()
     }
  }
  while (a ===false)
- 
+ do{
 var upperChoice = confirm("Would you like to include Upper case ?")
 var lowerChoice= confirm("Would you like to include Lowercase ?")
 var numericChoice = confirm("Would you like to include numeric character?")
@@ -56,7 +56,8 @@ if(upperChoice=== false && lowerChoice=== false && numericChoice=== false && spe
    {
      alert("You must choose at least one type of character!!!");
    }
-
+  }
+while(upperChoice=== false && lowerChoice=== false && numericChoice=== false && specialChoice===false)
  
 /* }
 
