@@ -21,7 +21,7 @@ function writePassword() {
  // console.log("password is "+ password.join(" "))
   var passwordText = document.querySelector("#password");
 
-  passwordText.value = password.join(' ');
+  passwordText.value = password.join('');
 
 }
 
